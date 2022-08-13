@@ -1,0 +1,1002 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0px 30px;
+    
+    border-bottom: 5px;
+}
+/* .contain */
+.contain{
+  
+   background-color: rgb(46, 42, 42);
+}
+
+h{
+        font-size:43px ;
+}
+.head{
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 18px;
+    color: blanchedalmond;
+}
+span{
+    margin: 30px;
+}
+.navbar{
+   
+    border: 2px solid black;
+    display: inline-block;
+    float: right;
+    margin-right: 70px;
+    border-radius: 50px;
+    background-color: rgb(60, 61, 58);
+    margin-top: 11px;
+}
+ul{
+    display: flex;
+    height: 40px;
+    list-style: none;
+    padding-top: 10px;
+}
+li a{
+    
+    text-decoration: none;
+    padding: 30px ;
+    color:rgb(248, 248, 248);
+}
+ a:hover{
+    /* background-color: black; */
+    color: darkkhaki;
+}
+#color3{
+    margin-top: -1px;
+    margin-bottom: 5px;
+    border: 0.2px solid rgb(97, 94, 90);
+    
+}
+ .color{
+    margin: 2px;
+} 
+#color1{
+    border-top: 4px solid rgb(36, 155, 36);
+}
+/* .contain1 */
+.contain1{ 
+    border: 2px solid black;
+    height: 350px;
+    display: flex;
+    background-color: rgb(68, 56, 56);
+}
+/* .contain .main */
+.main{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .image{
+    width: 70%;
+    height: 75%;
+    border: 7px solid rgb(255, 255, 255);
+    box-shadow:5px 0px 5px  black ;
+}
+.main .image img{
+    height: 100%;
+    width: 100%
+}
+/* .contain1 .para */
+.para{
+    height: 100%;
+    width: 50%;
+   
+}
+
+.para {
+    padding: 25px;
+}
+.para h1{
+    color: aliceblue;
+}
+.para p{
+    color: burlywood;
+}
+#btn{
+    background-color: rgb(51, 184, 69);
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-top: 45px;
+    padding: 3px;
+}
+#btn a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+}
+#btn a:hover{
+   color: rgb(255, 250, 250);
+}
+.contain2{
+    height: 500px;
+    display: flex;
+}
+.color{
+    margin-left: 1rem;
+}
+.para1{
+    height: 100%;
+    width: 60%;
+    background-color:rgb(248, 248, 248) ;
+}
+.main1{
+    height: 100%;
+    width: 40%;
+    background-color:rgb(254, 253, 255) ;
+}
+.contain2 .para2{
+    padding: 10px;
+}
+ 
+ #class li {
+    padding-left: 20px;
+    list-style-type: square;
+ }
+.border{
+    margin-left: 1rem;
+    border-left: 6px solid rgb(44, 131, 33);
+    padding-left: 15px;
+}
+#color{
+    border-top: 4px solid rgb(30, 131, 30);
+    width:8rem ;
+}
+.image1{
+    margin: 20px;
+    
+    height: 450px;
+}
+.head1{
+    height:10% ;
+    background-color: rgb(10, 20, 17);
+    padding: 7px;
+    padding-left: 7px;
+    color:aliceblue;
+    font-size: 13px;
+}
+.pic{
+    display: flex;
+    height: 30%;
+    background-color: rgb(236, 185, 185);
+}
+.pic1{
+    display: flex;
+    height: 30%;
+    background-color: rgb(143, 156, 152);
+}
+
+.pic2{
+    display: flex;
+    height: 30%;
+    background-color: brown;
+}
+.pic .image2{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(168, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.pic .image2 .img1{
+    border: 3px solid rgb(247, 236, 236);
+    height: 70%;
+    width: 60%;
+}
+.pic .image2 .img1 img{
+    width: 100%;
+    height: 100%;
+}
+.pic .para3{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(168, 166, 166);
+}
+.pic .para3 h{
+    font-size: 25px;
+    padding: 10px;
+}
+.pic .para3 p{
+    padding: 10px;
+}
+.pic1 .image3{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(104, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic1 .para4{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(104, 97, 97);
+}
+.pic1 .image3 .img2{
+    border: 3px solid rgb(255, 248, 248);
+    height: 70%;
+    width: 60%;
+}
+.pic1 .image3 .img2 img{
+    width: 100%;
+    height: 100%;
+}
+.pic1 .para4 h{
+    font-size: 25px;
+    padding: 10px;
+}
+.pic1 .para4 p{
+    padding: 10px;
+}
+.pic2 .image4{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(168, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic2 .para5{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(168, 166, 166);
+}
+.pic2 .image4 .img3{
+    border: 3px solid rgb(243, 237, 237);
+    height: 70%;
+    width: 60%;
+}
+.pic2 .image4 .img3 img{
+    width: 100%;
+    height: 100%;
+}
+.pic2 .para5 h{
+    font-size: 25px;
+    padding: 10px;
+}
+.pic2 .para5 p{
+    padding: 10px;
+}
+ #date{
+    color: thistle;
+}
+#color2{
+    border-top: 4px solid rgb(37, 134, 37);
+}
+/* footer */
+.contain3{
+    background-color: rgb(48, 40, 40);
+    
+    height: 250px;
+    border: 2px solid black;
+}
+
+.contain3 .footer{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    list-style: none;
+}
+#fothead{
+    font-size: 15px;
+    padding: 2px;
+    padding-right: 45px;
+    
+    background-color: rgb(68, 59, 59);
+    border-radius: 5px;
+    color: rgb(252, 252, 252);
+}
+.fot1 li{
+    margin-top: 8px;
+}
+.copyrights p{
+    color: aliceblue;
+    margin-left: 95px;
+} 
+/* media query */
+@media screen and (max-width:1018px) {
+    .border {
+         margin-top: -32px;
+    }
+}
+@media screen and (max-width:980px) {
+    .pic .para3 p {
+        font-size: 15px;
+    }
+    .pic1 .para4 p {
+        font-size: 15px;
+    }
+    .pic2 .para5 p {
+       font-size: 15px;
+    }
+}
+@media screen and (max-width:972px) {
+    .pic .para3 p {
+        padding: 6px;
+    }
+    .pic1 .para4 p {
+        padding: 6px;
+    }
+    .pic2 .para5 p {
+        padding: 6px;
+    }
+}
+@media screen and (max-width:960px) {
+    .contain2 {
+       height: 518px;
+        }
+}
+@media screen and (max-width:950px) {
+    .border {
+        margin-top: -44px;
+    }
+ .para2 {
+    padding: 3px;
+}
+}
+@media screen and (max-width:910px) {
+    .para {
+        padding: 21px;
+    }
+}
+@media screen and (max-width:906px) {
+    .navbar {
+        margin-top: -60px;
+    }
+    .para h1 {
+         font-size: 29px;
+    }
+}
+@media screen and (max-width:900px){
+    .main .para {
+       padding: 16;
+    }
+    .pic .para3 p {
+        padding: 4px;
+    }
+    .pic1 .para4 p {
+        padding: 4px;
+    }
+    .pic2 .para5 p {
+        padding: 4px;
+    }
+    .contain2 .para2 {
+        padding: 6px;
+    }
+    }
+@media screen and (max-width:896px) {
+    .navbar {
+        margin-top: -58px;
+    }
+    .border {
+        margin-top: -41px;
+    }
+}
+   @media screen and (max-width:884px) {
+    #btn {
+        margin-top: 23px;
+    }
+    .para h1 {
+        color: aliceblue;
+        font-size: 26px;
+    }
+   }
+   @media screen and (max-width:872px) {
+    .para {
+        padding: 0px;
+    }
+    .para2 {
+       padding: 3px;
+   }
+}
+   @media screen and (max-width:856px) {
+    .para {
+        padding: 7px;
+    }
+}
+   @media screen and (max-width:838px) {
+    .para {
+        padding: 0px;
+    }
+    .para2 {
+       padding: 3px;
+   }
+   .navbar{
+    margin-right: 15px;
+   }
+}
+@media screen and (max-width:790px) {
+    .navbar {
+        
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:780px) {
+    .navbar {
+        
+        font-size: 12px;
+    }
+}
+   @media screen and (max-width:776px) {
+    .para h1 {
+        font-size: 25px;
+    }
+    li a {
+       padding: 24px;
+}
+    .para {
+        padding: 0px;
+    }
+    #class{
+        margin-top: -18px;
+}
+}
+   @media screen and (max-width:762px) {
+   .navbar ul li a {
+      padding: 22px;
+}
+    .contain2 .para2 {
+        padding: 0px;
+    }
+     .para {
+        padding: 1px;
+    }
+}
+    @media screen and (max-width:730px) {
+        .navbar {
+          
+            font-size: 14px;
+        }
+        .border {
+             margin-top: -23px;
+        }
+        .pic .para3 {
+           font-size: 14px;
+        }
+        .pic1 .para4 {
+           font-size: 14px;
+        }
+        .pic2 .para5 {
+            font-size: 14px;
+        }
+    }
+
+@media screen and (max-width:717px) {
+    .navbar ul li a {
+        padding: 18px;
+    }
+    .border {
+        margin-top: -40px;
+    }
+
+   }
+   @media screen and (max-width:714px) {
+    .navbar ul li a {
+        padding: 18px;
+    }
+    .border {
+      margin-top: -29px;
+    }
+    .pic .para3 {
+        font-size: 14px;
+    }
+    .pic1 .para4 {
+        font-size: 14px;
+    }
+    .pic2 .para5 {
+        font-size: 14px;
+    }
+}
+   @media screen and (max-width:700px) {
+    .navbar {
+       
+        font-size: 14px;
+    }
+    .border {
+        margin-top: -51px;
+    }
+   }
+   @media screen and (max-width:698px) {
+    .pic .para3 p {
+     font-size: 14px;
+    }
+    .pic1 .para4 p {
+      font-size: 14px;
+    }
+    .pic2 .para5 p {
+     font-size: 14px;
+    }
+}
+   @media screen and (max-width:694px) {
+     .navbar ul li a {
+        padding: 16px;
+    }
+    .para {
+        padding: 0px;
+    }
+    .contain2 .para2 {
+        padding: 5px;
+    }
+    .pic .para3 p {
+        padding: 0px;
+    }
+    .pic1 .para4 p {
+        padding: 0px;
+    }
+    .pic2 .para5 p {
+        padding: 0px;
+    }
+     #class {
+        margin-top: -45px;
+    }
+    .contain2 .para1 .border {
+       
+        margin-top: -47px;
+    }
+}
+    @media screen and (max-width:690px) {
+        .pic .para3 p {
+            
+            font-size: 14px;
+        }
+        .pic1 .para4 p {
+           
+            font-size: 14px;
+        }
+        .pic2 .para5 p {
+            
+            font-size: 14px;
+        }
+}
+
+@media screen and (max-width:682px) {
+    .navbar {
+       
+        font-size: 14px;
+    }
+    .contain2 {
+        height: 563px;
+        
+    }
+   }
+   @media screen and (max-width:675px) {
+    .navbar ul li a {
+        padding: 14px;
+    }
+    .para h1 {
+        font-size: 25px;
+    }
+   
+    .para p{
+        font-size: 15px;
+    }
+    .contain2 .para2 {
+        font-size: 14px;
+    }
+    #class {
+       font-size: 14px;
+    }
+    .contain2 .para1 .border {
+        margin-top: -27px;
+        font-size: 14px;
+    }
+   }
+   @media screen and (max-width:670px) {
+    .contain2 .para2 {
+        font-size: 15px;
+    }
+    #class {
+        font-size: 15px;
+        margin-top: -13px;
+    }
+    .contain2 .para1 .border {
+        font-size: 15px;
+    }
+   }
+   @media screen and (max-width:666px) {
+    .navbar {
+        
+        font-size: 15px;
+    }
+    .para h1 {
+        font-size: 24px;
+    }
+    }
+    @media screen and (max-width:655px) {
+        #class {
+           
+            margin-top: -35px;
+        }
+        
+    }
+  
+   @media screen and (max-width:650px) {
+    .navbar ul li a {
+        padding: 11px;
+    }
+   }
+   @media screen and (max-width:642px) {
+    .contain2 .para2 {
+        font-size: 14px;
+    }
+    #class {
+    font-size: 14px;
+}
+   }
+   @media screen and (max-width:640px) {
+    .para h1 {
+        font-size: 22px;
+    }
+    .contain2 .para2 {
+        font-size: 14px;
+    }
+    #class {
+        font-size: 14px;
+        }
+   }
+   @media screen and (max-width:630px) {
+    #btn {
+       margin-top: -9px;
+    }
+    .color h1{
+        font-size: 18px;
+    }
+    .contain2 .para2 {
+        font-size: 15px;
+    }
+    #class {
+        font-size: 15px;
+    }
+    .contain2 .para1 .border {
+       
+        font-size: 15px;
+    }
+   }
+   @media screen and (max-width:623px) {
+    .pic .para3 h {
+        font-size: 20px;
+       
+    }
+    .pic1 .para4 h {
+        font-size: 20px;
+       
+    }
+    .pic2 .para5 h {
+        font-size: 20px;
+       
+    }
+   }
+   @media screen and (max-width:614px) {
+    .contain2 .para2 {
+        font-size: 14px;
+    }
+  
+#class {
+    font-size: 14px;
+}
+.pic .para3 p {
+        font-size: 13px;
+    }
+    .pic1 .para4 p {
+        font-size: 13px;
+    }
+    .pic2 .para5 p {
+        font-size: 13px;
+    }
+   }
+   @media screen and (max-width:610px) {
+    .navbar {
+       
+        font-size: 13px;
+    }
+    #color3 {
+        margin-top: -1px;
+        margin-bottom: 10px;
+    }
+    .contain2 .para2 {
+        font-size: 15px;
+    }
+    #class {
+        font-size: 15px;
+    }
+    .contain2 .para1 .border {
+       
+        font-size: 15px;
+    }
+    .pic .para3 p {
+        font-size: 13.5px;
+    }
+    .pic1 .para4 p {
+        font-size: 13.5px;
+    }
+    .pic2 .para5 p {
+        font-size: 13.5px;
+    }
+   }
+   @media screen and (max-width:604px) {
+    .contain2 .para2 {
+        font-size: 14px;
+    }
+    .pic .para3 p {
+        font-size: 13px;
+    }
+    .pic1 .para4 p {
+        font-size: 13px;
+    }
+    .pic2 .para5 p {
+        font-size: 13px;
+    }
+   }
+
+   @media screen and (max-width:600px) {
+    .navbar ul li a {
+        padding: 6px;
+    }
+
+    .contain2 .para2 {
+        font-size: 12px;
+        margin-top: -2px;
+    }
+    #class {
+        font-size: 12px;
+    }
+    .contain2 .para1 .border {
+        margin-top: -27px;
+        font-size: 13px;
+    }
+   
+     .pic .para3 p {
+    font-size: 13px;}
+     .pic1 .para4 p {
+    font-size: 13px;}
+
+    .pic2 .para5 p {
+    font-size: 13px;}
+    .footer {
+        flex-wrap: wrap;
+    }
+    }
+   @media screen and (max-width:596px) {
+    .contain2 .para2 {
+        font-size: 14px;
+       
+    }
+    #class {
+        font-size: 14px;
+    }
+    .contain2 .para1 .border {
+       
+        font-size: 14px;
+    }
+   }
+   @media screen and (max-width:578px) {
+    .contain2 .para2 {
+        font-size: 14px;
+       
+    }
+    #class {
+        font-size: 14px;
+        margin-top: -20px;
+    }
+    .contain2 .para1 .border {
+       
+        font-size: 15px;
+    }
+    .pic .para3 p {
+        font-size: 12.5px;
+    }
+    .pic1 .para4 p {
+        font-size: 12.5px;
+    }
+    .pic2 .para5 p {
+        font-size: 12.5px;
+    }
+   }
+   @media screen and (max-width:574px) {
+    .contain3 {
+        height: 372px;
+        }
+   }
+   @media screen and (max-width:560px) {
+   
+.contain2 .para2 {
+    font-size: 14px;
+ 
+}
+.pic .para3 p {
+    font-size: 12px;
+}
+.pic1 .para4 p {
+    font-size: 12px;
+}
+.pic2 .para5 p {
+    font-size: 12px;
+}
+   }
+   @media screen and (max-width:543px) {
+    .head {
+        font-size: 14px;
+    }
+    .navbar {
+       
+        font-size: 13px;
+    }
+    #color3 {
+        margin-top: -1px;
+        margin-bottom: 12px;
+      
+    }
+    .contain2 .para2 {
+        font-size: 14px;
+    }
+   }
+   @media screen and (max-width:538px) {
+    
+
+.contain2 .para2 {
+    font-size: 14px;
+}
+   }
+ 
+    @media screen and (max-width:534px) {
+    #color3 {
+        margin-top: 0px;
+        margin-bottom: 11px;
+       
+    }
+    .navbar ul li a {
+        padding: 2px;
+    }
+    .para h1 {
+        font-size: 21px;
+    }
+    .contain2 .para2 {
+        font-size: 12.5px;
+        margin-top: -2px;
+    }
+    #class {
+        font-size: 13.5px;
+        }
+    #class {
+        margin-top: -30px;
+    }
+    .contain2 .para1 .border {
+        font-size: 14px;
+    }
+    .head1 h1{
+        font-size: 20px;
+    }
+    .pic .para3 h {
+        font-size: 19px;
+        padding: 10px;
+    }
+    .pic1 .para4 h {
+        font-size: 19px;
+        padding: 10px;
+    }
+    .pic2 .para5 h {
+        font-size: 19px;
+        padding: 10px;
+    }
+    
+}
+@media screen and (max-width:530px) {
+    .para h1 {
+        font-size: 19px;
+    }
+}
+@media screen and (max-width:527px) {
+    .head {
+        font-size: 13px;
+    }
+    .para h1 {
+        font-size: 19px;
+    }
+}
+@media screen and (max-width:516px) {
+    .head {
+        font-size: 15px;
+    }
+    .navbar {
+        
+        font-size: 14px;
+    }
+    #color3 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .para p {
+        font-size: 13px;
+    }
+    .contain3 {
+        
+        height: 372px;
+        
+    }
+}
+@media screen and (max-width:500px) {
+    .head {
+        font-size: 14px;
+    }
+    #color3 {
+        margin-top: 0px;
+        margin-bottom: 11px;
+    }
+    .navbar ul li a {
+        padding: 0px;
+    }
+    #color3 {
+        margin-top: 0px;
+        margin-bottom: 9px;
+    }
+    .para p {
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width:467px) {
+    .navbar {
+        font-size: 12px;
+    }
+    #color3 {
+        margin-top: 0px;
+        margin-bottom: 14px;
+    }
+    .pic .para3 p {
+        font-size: 11.5px;
+    }
+    .pic1 .para4 p {
+        font-size: 11.5px;
+    }
+    .pic2 .para5 p {
+        font-size: 11.5px;
+    }
+    .pic .image2 .img1 {
+       
+        width: 80%;
+    }
+    .pic1 .image3 .img2 {
+       
+        width: 80%;
+    }
+    .pic2 .image4 .img3 {
+       
+        width: 80%;
+    }
+}
+@media screen and (max-width:450px) {
+    .head {
+        font-size: 13px;
+    }
+    .para h1 {
+        font-size: 17px;
+    }
+    
+    
+  
+}
+
+
+
+
+   
+
+
+
+
